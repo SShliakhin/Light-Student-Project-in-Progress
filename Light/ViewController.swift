@@ -26,6 +26,6 @@ class ViewController: UIViewController {
         updateUI()
     }
 
-
+    override var prefersStatusBarHidden: Bool { true }
 }
 
